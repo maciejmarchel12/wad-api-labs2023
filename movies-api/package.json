@@ -1,0 +1,26 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "description": "movies app lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "babel-node ./initialise-dev/initDevDB.js && nodemon --exec npm start"
+  },
+  "author": "maciejmarchel12",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.0.3"
+  }
+}
