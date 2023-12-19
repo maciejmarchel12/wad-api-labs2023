@@ -1,0 +1,23 @@
+{
+  "name": "tasky-api",
+  "version": "1.0.0",
+  "description": "tasky-api lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "author": "maciejmarchel12",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
